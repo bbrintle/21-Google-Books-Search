@@ -7,6 +7,7 @@ import { toast } from 'react-toastify';
 class AddBookBtn extends React.Component{
  
     postToDB = (book) => {
+      console.log("testing")
         var dbBook = {
           title: book.title,
           authors: book.authors,
