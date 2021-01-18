@@ -1,9 +1,10 @@
 import React from "react";
+import "./EmptyList.css";
 
 export default function EmptyList(){
     return(
-        <div>
-            <h3>No Books Are Availibe to be Desplayed</h3>
+        <div className='emptyList'>
+            <h3>No Books Are Available For Display</h3>
         </div>
     )
 }
