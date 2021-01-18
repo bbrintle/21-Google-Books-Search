@@ -1,0 +1,12 @@
+.bookInfo {
+    position: relative;
+    margin-bottom: 25px;
+    box-shadow: 2.5px 3px rgb(133, 132, 106);
+    background-color: rgb(240, 221, 196);
+}
+
+.removeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
