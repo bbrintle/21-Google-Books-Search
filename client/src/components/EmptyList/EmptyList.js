@@ -3,7 +3,7 @@ import React from "react";
 export default function EmptyList(){
     return(
         <div>
-            <h2>No Books To Display</h2>
+            <h3>No Books Are Availibe to be Desplayed</h3>
         </div>
     )
 }

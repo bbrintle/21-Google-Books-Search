@@ -10,7 +10,7 @@ app.use(express.json());
 
 //For connecting MongoDB
 const mongoose = require("mongoose");
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://admin:StarWars1@cluster0.zfz8x.mongodb.net/googlebooksearch?retryWrites=true&w=majority", {
     userCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true

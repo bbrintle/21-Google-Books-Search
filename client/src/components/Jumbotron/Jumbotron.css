@@ -5,4 +5,5 @@ background-image: url(https://kentland.lib.in.us/wp-content/uploads/2018/06/libr
 
 .white{
     color:floralwhite;
+    border: 2px solid black;
 }
