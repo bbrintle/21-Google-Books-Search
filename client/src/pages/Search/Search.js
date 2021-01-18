@@ -43,7 +43,7 @@ class Search extends Component {
         <div>
           <div className='searchBar'>
             <input 
-              placeholder='Search For Books'
+              placeholder='Search Here'
               id="bookQ" 
               className="form-control form-control-lg" autoComplete="off" 
               type="text" 
