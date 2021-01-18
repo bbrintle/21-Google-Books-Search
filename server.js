@@ -10,9 +10,11 @@ app.use(express.json());
 
 //For connecting MongoDB
 const mongoose = require("mongoose");
-
-// Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooksearch", {
+    userCreateIndex: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
 
 
 // Serve up static assets (usually on heroku)
